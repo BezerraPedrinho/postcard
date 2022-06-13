@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: none;
+    text-decoration: none;
+}
+#linkSig:link{
+    color: #8DFF65;
+    text-decoration: none;
+}
+#linkSig:visited{
+    color: #ff65c1;
+}
+#linkSig:hover{
+    text-decoration: underline;
+}
+#linkSig:active{
+    color: #000000;
+}
+body{
+    
+    background-color: #DADADA;   
+}
+.container{
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profilePicture{
+    width: 123px ;
+    margin-top: 76px;
+}
+
+.textContent{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.profileName{
+    min-width: 184px;
+    max-width: 373px;
+    text-align: center;
+}
+#name{
+    
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 7px ;
+}
+#ocupation{
+    font-weight: 300;
+    font-size: 12px;
+}
+.btn{
+    text-align: center;
+    min-width: 184px;
+    max-width: 373px;
+    width: 38.43%;
+    padding: 6px 0px 6px 0px;
+    border: none;
+    border-radius: 8px ;
+    background-color:#8DFF65;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:white;
+    color: #8DFF65;
+}
+#signature{
+    position: fixed;
+     bottom: 10px ;
+}
+
+@media(min-width:1133px ){
+body{
+    /* desenhar uma versão escura*/
+    display: flex;
+   
+    justify-content: center;
+    margin-top: 113px;
+    
+    
+}
+.container{
+    
+    width: 76.61%;
+    flex-wrap: wrap;
+    flex-direction:column;
+    min-width: 868px;
+    max-width: 1060px;
+    height: 517px;
+    border:  1px solid #44DA0F;
+    justify-content: center;
+   
+}
+.imageProfile{
+    height: 123px;
+    
+}
+#profilePicture{
+    margin: 0;
+}
+.btn{
+    width: 34.78%;
+}
+.textContent{
+    height: 123px;
+
+    min-width: 387px;
+    width: 61%;
+    
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+}
+#signature{
+  position: fixed;
+  bottom: none;  
+   
+}
+}
